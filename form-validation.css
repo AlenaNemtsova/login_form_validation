@@ -1,0 +1,164 @@
+.container {
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.reg {
+    display: inline-block;
+
+    border-radius: 8px;
+    box-shadow: -5px 5px 20px -5px lightgrey;
+    margin: 20px;
+    position: relative;
+    width: 432px;
+
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.img {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    z-index: 2;
+}
+
+.title {
+    padding: 10px 16px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.title_text {
+    color: #606770;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.reg-box {
+    width: 432px;
+    padding: 16px;
+    box-sizing: border-box;
+    border-top: 1px solid #dadde1;
+}
+
+.textarea {
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    background-color: #f5f6f7;
+
+    color: #8d949e;
+    font-size: 15px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.full-name_input {
+    padding: 11px;
+    width: 170px;
+
+}
+
+#firstname {
+    outline: none;
+}
+
+.name-first {
+    margin-right: 8px;
+    float: left;
+    width: 196px;
+}
+
+.name-last {
+    width: 196px;
+    float: right;
+}
+
+.full-name {
+    display: flow-root;
+    margin-bottom: 10px;
+}
+
+.mobile-email,
+.password {
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.mobile-email_input,
+.password_input {
+    padding: 11px;
+    width: 375px;
+}
+
+.birthday {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.gender {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.gender_wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.gender_radio {
+    border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 4px;
+    flex: 1 1 auto;
+    margin: 8px 6px 6px;
+    height: 36px;
+    width: auto;
+    position: relative;
+}
+
+.gender-label {
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0 28px 0 10px;
+    width: 100%;
+}
+
+.radio-btn {
+    height: 36px;
+    margin: 0;
+    right: 10px;
+    position: absolute;
+
+}
+
+
+.policy {
+    color: #777;
+    font-size: 11px;
+
+}
+
+.btn {
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    padding: 0 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 194px;
+}
+
+#errorMessage {
+    color: red;
+    font-size: 18px;
+}

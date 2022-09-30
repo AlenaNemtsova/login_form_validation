@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="form-validation.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="reg">
+        <img
+          class="img"
+          src="https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/TdCEremeWv5.png"
+          alt=""
+          width="24"
+          height="24"
+        />
+        <div class="title">
+          <div class="title_sign-up">Sign Up</div>
+          <div class="title_text">It's quick and easy.</div>
+        </div>
+
+        <div class="reg-box">
+          <form class="form" action="">
+            <div class="full-name">
+              <div class="name-first">
+                <input
+                  class="textarea full-name_input"
+                  id="firstname"
+                  type="text"
+                  name="firstname"
+                  placeholder="First name"
+                  autofocus
+                />
+              </div>
+              <div class="name-last">
+                <input
+                  class="textarea full-name_input"
+                  id="lastname"
+                  type="text"
+                  name="lastname"
+                  placeholder="Last name"
+                />
+              </div>
+            </div>
+
+            <div class="mobile-email">
+              <input
+                class="textarea mobile-email_input"
+                type="text"
+                name="mobile-or-email"
+                id="mobileEmail"
+                placeholder="Mobile number or email"
+              />
+            </div>
+
+            <div class="password">
+              <input
+                class="textarea password_input"
+                type="text"
+                name="password"
+                id="password"
+                placeholder="New password"
+              />
+            </div>
+
+            <div class="birthday">
+              <div>Birthday</div>
+              <label for=""></label>
+              <select name="mm" id="month">
+                <option value="1">Jan</option>
+                <option value="2">Feb</option>
+                <option value="3">Mar</option>
+                <option value="4">Apr</option>
+                <option value="5">May</option>
+              </select>
+              <select name="dd" id="day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+              <select name="yyyy" id="year">
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+              </select>
+            </div>
+
+            <div class="gender">
+              <div>Gender</div>
+              <div class="gender_wrapper">
+                <span class="gender_radio">
+                  <label class="gender-label" for="female">Female</label>
+                  <input
+                    class="radio-btn"
+                    type="radio"
+                    name="gender"
+                    value="female"
+                    id="female"
+                  />
+                </span>
+                <span class="gender_radio">
+                  <label class="gender-label" for="male">Male</label>
+                  <input
+                    class="radio-btn"
+                    type="radio"
+                    name="gender"
+                    value="male"
+                    id="male"
+                  />
+                </span>
+                <span class="gender_radio">
+                  <label class="gender-label" for="custom">Custom</label>
+                  <input
+                    class="radio-btn"
+                    type="radio"
+                    name="gender"
+                    value="custom"
+                    id="custom"
+                  />
+                </span>
+              </div>
+            </div>
+
+            <p class="policy">
+              By clicking Sign Up, you agree to our Terms, Data Policy and
+              Cookies Policy. You may receive SMS Notifications from us and can
+              opt out any time.
+            </p>
+
+            <div id="errorMessage"></div>
+            <button type="submit" class="btn">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="form-validation.js"></script>
+  </body>
+</html>
