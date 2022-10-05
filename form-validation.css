@@ -61,31 +61,33 @@
     width: 170px;
 
 }
-
-#firstname {
+/* #firstname {
     outline: none;
-}
-
-.name-first {
-    margin-right: 8px;
-    float: left;
-    width: 196px;
-}
-
-.name-last {
-    width: 196px;
-    float: right;
-}
+} */
 
 .full-name {
     display: flow-root;
     margin-bottom: 10px;
 }
 
+.name-first {
+    margin-right: 8px;
+    float: left;
+    width: 196px;
+    
+}
+
+.name-last {
+    width: 196px;
+    float: right;
+    
+}
+
 .mobile-email,
 .password {
     width: 400px;
     margin-bottom: 10px;
+    
 }
 
 .mobile-email_input,
@@ -137,11 +139,9 @@
 
 }
 
-
 .policy {
     color: #777;
     font-size: 11px;
-
 }
 
 .btn {
@@ -162,3 +162,8 @@
     color: red;
     font-size: 18px;
 }
+
+  .error-firstname, .error-lastname, .error-mobileEmail  {
+    color: red;
+    font-size: 14px;
+  }

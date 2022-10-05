@@ -23,9 +23,10 @@
         </div>
 
         <div class="reg-box">
-          <form class="form" action="">
+          <form class="form" action="" novalidate>
             <div class="full-name">
               <div class="name-first">
+                <span class="error-firstname" aria-live="polite"></span>
                 <input
                   class="textarea full-name_input"
                   id="firstname"
@@ -33,20 +34,24 @@
                   name="firstname"
                   placeholder="First name"
                   autofocus
+                  required
                 />
               </div>
               <div class="name-last">
+                <span class="error-lastname" aria-live="polite"></span>
                 <input
                   class="textarea full-name_input"
                   id="lastname"
                   type="text"
                   name="lastname"
                   placeholder="Last name"
+                  required
                 />
               </div>
             </div>
 
             <div class="mobile-email">
+              <span class="error-mobileEmail" aria-live="polite"></span>
               <input
                 class="textarea mobile-email_input"
                 type="text"
