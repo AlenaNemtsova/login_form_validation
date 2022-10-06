@@ -158,12 +158,11 @@
     min-width: 194px;
 }
 
-#errorMessage {
-    color: red;
-    font-size: 18px;
-}
-
-  .error-firstname, .error-lastname, .error-mobileEmail  {
+  .error-firstname, .error-lastname, .error-mobileEmail, .error-password {
     color: red;
     font-size: 14px;
+  }
+
+  .error-field {
+    border-color: red;
   }
