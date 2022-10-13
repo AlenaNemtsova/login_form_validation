@@ -14,14 +14,15 @@ const passwordError = document.querySelector('span.error-password');
 
 
 form.onsubmit = function validate(evt) {
+    evt.preventDefault();
+
     if (firstname.validity.valueMissing) {
-        evt.preventDefault();
+
         firstnameError.textContent = "What's your name?";
         firstname.classList.add('error-field');
     }
 
     if (lastname.validity.valueMissing) {
-        evt.preventDefault();
         lastnameError.textContent = "What's your name?";
         lastname.classList.add('error-field');
     }
@@ -32,7 +33,6 @@ form.onsubmit = function validate(evt) {
         return true;
     }
     else {
-        evt.preventDefault();
         mobileEmailError.textContent = "Please enter a valid mobile number or email address.";
         mobileEmail.classList.add('error-field');
     }
@@ -42,7 +42,6 @@ form.onsubmit = function validate(evt) {
         return true;
     }
     else {
-        evt.preventDefault();
         passwordError.textContent = "Enter a conbination of at least eight characters including two numbers and a punctuation mark.";
         passwordError.classList.add('error-field');
     }
