@@ -66,11 +66,7 @@ body {
 .full-name_input {
     padding: 11px;
     width: 170px;
-
 }
-/* #firstname {
-    outline: none;
-} */
 
 .full-name {
     display: flow-root;
@@ -81,13 +77,11 @@ body {
     margin-right: 8px;
     float: left;
     width: 196px;
-    
 }
 
 .name-last {
     width: 196px;
     float: right;
-    
 }
 
 .mobile-email,
@@ -112,7 +106,6 @@ body {
 
 .gender_wrapper, .birthday_wrapper {
     display: flex;
-    /* width: 100%; */
 }
 
 .gender_radio, .birthday_select {
@@ -121,10 +114,8 @@ body {
     display: inline-block;
     border-radius: 4px;
     flex: 1 1 auto;
-    /* margin: 8px 6px 6px; */
     margin-right: 15px;
     height: 36px;
-    /* width: auto; */
     position: relative;
     font-size: 15px;
 }
